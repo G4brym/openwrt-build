@@ -5,11 +5,11 @@
 
 SHELL := bash -e
 
-OPENWRT_RELEASE := 21.02.5
+OPENWRT_RELEASE := 22.03.2
 
-OPENWRT_TARGET := mvebu
-OPENWRT_SUBTARGET := cortexa9
-OPENWRT_PROFILE := linksys_wrt1900acs
+OPENWRT_TARGET := ath79
+OPENWRT_SUBTARGET := generic
+OPENWRT_PROFILE := tplink_archer-c6-v2
 
 DOCKER_IMAGE := openwrt-custom-builder:$(OPENWRT_RELEASE)
 
